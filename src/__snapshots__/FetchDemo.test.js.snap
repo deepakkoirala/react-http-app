@@ -1,0 +1,112 @@
+exports[`fetching data re-renders with an error 1`] = `
+<FetchDemo
+  subreddit="reactjs">
+  <div>
+    <h1>
+      /r/reactjs
+    </h1>
+    <div>
+      Loading...
+    </div>
+  </div>
+</FetchDemo>
+`;
+
+exports[`fetching data re-renders with an error 2`] = `
+<FetchDemo
+  subreddit="reactjs">
+  <div>
+    <h1>
+      /r/reactjs
+    </h1>
+    <div>
+      Something went wrong: 
+      End of the world
+    </div>
+  </div>
+</FetchDemo>
+`;
+
+exports[`fetching data re-renders with the data 1`] = `
+<FetchDemo
+  subreddit="reactjs">
+  <div>
+    <h1>
+      /r/reactjs
+    </h1>
+    <div>
+      Loading...
+    </div>
+  </div>
+</FetchDemo>
+`;
+
+exports[`fetching data re-renders with the data 2`] = `
+<FetchDemo
+  subreddit="reactjs">
+  <div>
+    <h1>
+      /r/reactjs
+    </h1>
+    <ul>
+      <li>
+        <span
+          className="score" />
+        foo
+      </li>
+      <li>
+        <span
+          className="score" />
+        bar
+      </li>
+    </ul>
+  </div>
+</FetchDemo>
+`;
+
+exports[`test renders the error state 1`] = `
+<div>
+  <h1>
+    /r/reactjs
+  </h1>
+  <div>
+    Something went wrong: 
+    oops
+  </div>
+</div>
+`;
+
+exports[`test renders the loading state 1`] = `
+<div>
+  <h1>
+    /r/reactjs
+  </h1>
+  <div>
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`test renders the posts 1`] = `
+<div>
+  <h1>
+    /r/reactjs
+  </h1>
+  <ul>
+    <li>
+      <span
+        className="score">
+        3
+      </span>
+      Best Post Ever
+    </li>
+    <li>
+      <span
+        className="score">
+        17
+      </span>
+      Second Best Post Ever
+    </li>
+  </ul>
+</div>
+`;
